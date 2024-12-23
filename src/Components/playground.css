@@ -1,0 +1,50 @@
+.playground-container {
+  border: 1px solid white;
+  padding: 35px;
+  height: 300px;
+  width: 550px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.play-area-container {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(22, 25px);
+  grid-template-rows: auto;
+  background-color: rgb(104, 201, 239);
+}
+
+.play-area-container button {
+  border: none;
+  border-radius: 6px;
+}
+.play-area-container .box {
+  background-color: rgb(104, 201, 239);
+}
+
+.play-area-container .active {
+  background-color: red;
+  cursor: pointer;
+}
+
+.game-stats {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 35px;
+  width: 550px;
+}
+
+.game-stats div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 300px;
+  gap: 70px;
+}
